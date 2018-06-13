@@ -8,6 +8,10 @@ body {
   color: #4a4a4a;
 }
 
+a {
+  color: #4a4a4a;
+  text-decoration: none;
+}
 img {
   width: 100%;
   vertical-align: middle;
@@ -103,9 +107,6 @@ h6 {
 .main-navigation ul li {
   display: inline-block;
   margin-left: 1rem;
-}
-.main-navigation ul li a {
-  color: #4a4a4a;
 }
 .main-navigation ul li img {
   display: none;
@@ -232,7 +233,6 @@ h6 {
 }
 .information-list .item .info a {
   color: #4a90e2;
-  text-decoration: none;
 }
 @media only screen and (max-width: 768px) {
   .information {
@@ -387,10 +387,6 @@ h6 {
 }
 .site-footer nav span {
   margin-left: 0.5rem;
-}
-.site-footer nav a {
-  color: #4a4a4a;
-  text-decoration: none;
 }
 @media only screen and (max-width: 768px) {
   .site-footer nav {
